@@ -1,0 +1,13 @@
+h1. fortune_gem
+
+A ruby version of of the popular unix 'fortune' program.
+All the fortunes are from the fortune application you can install
+in via apt-get install fortune
+
+h2. Usage From an Application
+
+@@
+
+h2. Usage From the Command Line
+
+The gem comes with a bin so you can just type 'fortune_gem' whenever you want!
