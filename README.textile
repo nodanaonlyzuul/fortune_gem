@@ -6,8 +6,20 @@ in via apt-get install fortune
 
 h2. Usage From an Application
 
-@@
+@require 'fortune_gem'@
+@FortuneGem.give_fortune@
+
+or if you want to limit it to fortunes <= 100...
+@FortuneGem.give_fortune({:max_length => 100})@
 
 h2. Usage From the Command Line
 
 The gem comes with a bin so you can just type 'fortune_gem' whenever you want!
+
+$ fortune_gem
+
+Q:	How many Marxists does it take to screw in a light bulb?
+A:	None:  The light bulb contains the seeds of its own revolution.
+
+$ fortune_gem 40
+You're at the end of the road again.
