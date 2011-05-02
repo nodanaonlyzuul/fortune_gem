@@ -3,8 +3,5 @@
 require 'fortune_gem'
 
 print "\n"
-print "*** Fortune Ruby ***\n"
 print FortuneGem.give_fortune(:max_length => ARGV.first)
-print "\n"
-print "********************"
 print "\n"
