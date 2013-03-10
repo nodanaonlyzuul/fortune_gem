@@ -1,0 +1,14 @@
+PATH
+  remote: .
+  specs:
+    fortune_gem (0.0.5)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  fortune_gem!
