@@ -1,5 +1,3 @@
-h1. fortune_gem
-
 A ruby version of of the popular unix 'fortune' program.
 All the fortunes are from the fortune application you can install
 in via apt-get install fortune
