@@ -1,7 +1,5 @@
 #!/usr/bin/env ruby
 
 require 'fortune_gem'
-
-print "\n"
 print FortuneGem.give_fortune(:max_length => ARGV.first)
 print "\n"
