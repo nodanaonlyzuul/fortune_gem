@@ -2,8 +2,6 @@ class FortuneGem
 
   # Pass an option of :max_length if you want to limit length of fortunes                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       #
   def self.give_fortune(options = {})
-    instance  = self.new(options)
-    fortune   = nil
 
     if options[:max_length]
       short_listed = fortunes.find_all{|f| f.length <= options[:max_length].to_i}
