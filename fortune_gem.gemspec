@@ -9,6 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["nodanaonlyzuul"]
   spec.email         = ["beholdthepanda@gmail.com"]
 
+  spec.license       = 'MIT'
   spec.summary       = "A Ruby gem version of the unix 'fortune' program"
   spec.description   = "The unix 'fortune' program - implemented as a ruby gem"
   spec.homepage      = "https://github.com/nodanaonlyzuul/fortune_gem"
