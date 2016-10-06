@@ -1,14 +1,20 @@
 PATH
   remote: .
   specs:
-    fortune_gem (0.0.8)
+    fortune_gem (0.0.9)
 
 GEM
   remote: https://rubygems.org/
   specs:
+    rake (10.5.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  bundler (~> 1.11)
   fortune_gem!
+  rake (~> 10.0)
+
+BUNDLED WITH
+   1.13.2

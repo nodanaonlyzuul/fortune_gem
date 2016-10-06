@@ -1,5 +1,4 @@
-# A sample Gemfile
-source "https://rubygems.org"
-gemspec
+source 'https://rubygems.org'
 
-# gem "rails"
+# Specify your gem's dependencies in fortune_gem.gemspec
+gemspec
